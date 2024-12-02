@@ -1,4 +1,5 @@
 class RestaurantsController < ApplicationController
-  def index
+  def show
+    @message = "show1max"
   end
 end
